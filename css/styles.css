@@ -24,8 +24,6 @@ body {
   font-family: var(--general-font), sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-
-
 }
 .list {
   list-style: none;
@@ -45,18 +43,24 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo .akcent {color: var(--akcent);}
+.logo .akcent {
+  color: var(--akcent);
+}
 
-.logotipe{color: var(--text-color-white);
+.logotipe {
+  color: var(--text-color-white);
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-text-decoration: none;}
+text-decoration: none;
+}
 
-.logotipe .akcent{color: var(--akcent);}
+.logotipe .akcent {
+  color: var(--akcent);
+}
 
   /*Site-navigation*/
 .site-nav .link {
@@ -67,10 +71,12 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+
 .site-nav :hover,
 .site-nav :focus {
   color: var(--akcent);
 }
+
 .site-nav .link.current {
   color: var(--akcent);
 }
@@ -84,6 +90,7 @@ text-decoration: none;
   line-height: 1.14;
   text-decoration: none;
 }
+
 .auth-nav :hover,
 .auth-nav :focus {
   color: var(--akcent);
@@ -103,9 +110,9 @@ color: var(--text-color-white);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+text-align: center;
 margin-top: 0;
 margin-bottom: 40px;
 }
@@ -121,13 +128,12 @@ letter-spacing: 0.06em;
 min-width: 200px;
 min-height: 50px;
 border-radius: 4px;
-display: inline-block;
 padding: 10px 32px 10px 32px;
 margin: 0px;
 text-align: center;
 }
 
-.hero-box{
+.hero-box {
 width: 696px;
 height: 120px;
 }
@@ -138,7 +144,7 @@ margin-bottom: 94px;
 margin-top: 0;
 }
  
- .future .title{
+ .future .title {
   font-weight: var(--font-weight-bold);
   font-size: 14px;
   line-height: 1.14;
@@ -164,6 +170,7 @@ margin-top: 0;
    font-weight: var(--font-weight-bold);
    line-height: 1.17;
  }
+ 
  .team .title {
   font-weight: var(--font-weight-medium);
   font-size: 16px;
@@ -242,7 +249,7 @@ margin-top: 0;
     font-family: inherit;
   }
   
-  
+
   .portfolio .title {
     color: var(--primary-text-color);
     font-weight: var(--font-weight-bold);
