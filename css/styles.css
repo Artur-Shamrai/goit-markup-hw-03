@@ -29,6 +29,8 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /*Logotipe*/
@@ -54,7 +56,7 @@ body {
   letter-spacing: 0.03em;
 text-decoration: none;}
 
-  .logotipe .akcent{color: var(--akcent);}
+.logotipe .akcent{color: var(--akcent);}
 
   /*Site-navigation*/
 .site-nav .link {
@@ -72,6 +74,7 @@ text-decoration: none;
 .site-nav .link.current {
   color: var(--akcent);
 }
+
 /*Auth-navigation*/
 .auth-nav .link {
   color: var(--secondary-text-color);
@@ -87,85 +90,111 @@ text-decoration: none;
 }
 
 /*Hero section*/
-.hero{ background-color: var(--background-footer-color);
+.hero { 
+  background-color: var(--background-footer-color);
   width: 1600px;
-  height: 600px;}
+  height: 600px;
+  text-align: center;
+margin-bottom: 94px; 
+}
 
-  .hero-title {
-  color: var(--text-color-white);
-  font-weight: 900;
+.hero-title {
+color: var(--text-color-white);
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
+margin-top: 0;
+margin-bottom: 40px;
 }
+
 .hero .button {
-  background-color: var(--hero-button-backgroun);
-  color: var(--text-color-white);
+background-color: var(--hero-button-backgroun);
+color: var(--text-color-white);
 font-family: inherit;
-  font-weight: var(--font-weight-bold);
+font-weight: var(--font-weight-bold);
 font-size: 16px;
 line-height: 1.87;
-
 letter-spacing: 0.06em;
-width: 200px;
-height: 50px;
-
+min-width: 200px;
+min-height: 50px;
+border-radius: 4px;
+display: inline-block;
+padding: 10px 32px 10px 32px;
+margin: 0px;
+text-align: center;
 }
 
- /*Future list(Hero)*/
- .future .heading{}
+.hero-box{
+width: 696px;
+height: 120px;
+}
+
+/*Future list(Hero)*/
+.future {
+margin-bottom: 94px;
+margin-top: 0;
+}
+ 
  .future .title{
   font-weight: var(--font-weight-bold);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0
 }
- .future .slogan{
-   color: var(--secondary-text-color);
- ;
+
+
+.future .slogan {
+  color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 10px;
  }
-
+ 
+  
 
  /* Section team */
- 
- .team-heading{
+ .team-heading {
    font-size: 36px;
    font-weight: var(--font-weight-bold);
    line-height: 1.17;
-   text-align: center;
  }
- .team .title{
-  
+ .team .title {
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.17;
-  
 }
  
- .team .text{
+ .team .text {
    color: var(--secondary-text-color);
    font-size: 16px;
    line-height: 1.18;
   }
+  
   /* Activity section */
-  .activity .title{
+  .activity .title {
     font-weight: var(--font-weight-bold);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    padding: 0 0 50px 0;
   }
+ .activity{
+   margin-bottom: 94px;
+   margin-top: 0;
+ }
  
  /*Footer*/
-.footer{
+.footer {
   background-color: var(--background-footer-color);
 }
 
-  .footer .map{
+  .footer .map {
   color: var(--text-color-white);
   font-style: normal;
   font-size: 14px;
@@ -173,7 +202,8 @@ height: 50px;
   letter-spacing: 0.03em;
   text-decoration: none;
  }
- .footer .link{
+ 
+ .footer .link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
@@ -186,40 +216,41 @@ height: 50px;
 
 /*Buttons*/
 
-.button-list button{
-background-color: var(--buttons-color);
+.button-list button {
+  background-color: var(--buttons-color);
   font-family: inherit;
   font-weight: var(--font-weight-medium);
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
- 
 }
-.portfolio .button{list-style: none;
+
+.portfolio .button {
+  list-style: none;
   }
 
 .portfolio .button :hover, 
-.portfolio .button :focus{  
+.portfolio .button :focus {  
   background-color: var(--akcent);
-color: var(--text-color-white);}
+  color: var(--text-color-white);
+}
 
 
-  /* Poster section */
-  .portfolio a{
+  /* Portfolio section */
+  .portfolio a {
     text-decoration: none;
     font-family: inherit;
   }
-  .portfolio .title{
+  
+  .portfolio .title {
     color: var(--primary-text-color);
     font-weight: var(--font-weight-bold);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-  
   }
 
-  .portfolio .lead{
+  .portfolio .lead {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.87;
