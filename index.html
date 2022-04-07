@@ -9,44 +9,44 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
     <!--Header section-->
     <header>
-        <nav>
-        <a href="" class="logo"><span class="akcent">Web</span>Studio</a>
-    
-      
-            <ul class="site-nav list">
-                <li><a href=""  class="link current" >Студия</a> </li>
-                <li><a href="  ./portfolio.html" class="link" >Портфолио</a></li>
-                <li><a href="" class="link"  >Контакты</a></li>
-       
-            </ul>
-        </nav>
-            <ul class="auth-nav list">
-    
-           <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
+            <nav class="containeer">
+            <div class="page-nav">
+               <div class="logotipe"> <a href="" class="logo"><span class="akcent">Web</span>Studio</a></div>
+                <ul class="site-nav list">
+                    <li class="item"><a href=""  class="link current" >Студия</a> </li>
+                    <li class="item"><a href="  ./portfolio.html" class="link" >Портфолио</a></li>
+                    <li class="item"><a href="" class="link"  >Контакты</a></li>
+                </ul>
+            
+                <ul class="auth-nav list">
+                    <li class="item"> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
    
     <!--Main Section-->
     <main>
 
         <!--Hero section-->
         <section class="hero">
-            <div class="hero-box"><h1 class="hero-title">Эффективные решения для вашего бизнеса</h1></div>
+           <h1 class="title">Эффективные решения для вашего бизнеса</h1>
             <button  type="button" class="button">Заказать услугу</button>
         </section>
-    <!--Future list-->
-        <section class="future">
+   
+        <!--Future list-->
+        <section class="future section">
             <div class="containeer">
-            <h2 hidden>Наши преимущества</h2>
-            <ul class="future list">
+                <h2 hidden>Наши преимущества</h2>
+                <ul class="future list">
                 <li>
                     <h3 class="title">Внимание к деталям</h3>
                         <p class="slogan">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -70,8 +70,8 @@
         </section>
         
         <!--Activity section-->
-        <section class="activity">
-            
+        <section class="activity .section">
+            <div class="containeer">
             <h2 class="title">Чем мы занимаемся</h2>
             <ul class="list">
                 <li><img src="../goit-markup-hw-02/images/codding.jpg"
@@ -93,12 +93,12 @@
                 </li>
             </ul>
         
-            
+        </div>
         </section>
         
         <!--Team section-->
-        <section class="team">
-            
+        <section class="team section ">
+            <div class="containeer">
             <h2 class="team-heading">Наша команда</h2>
             <ul class="list">
                     
@@ -134,11 +134,13 @@
             </li>
             
         </ul>
+    </div>
         </section>
     </main>
 
     <!--Footer section-->
     <footer class="footer">
+        <div class="containeer">
         <a href="" class="logotipe"><span class="akcent">Web</span>Studio</a>
         <address>
         
@@ -149,6 +151,7 @@
                 <li><a class="link" href="tel:+380991111111" >+38 099 111 11 11</a></li>
             </ul>
         </address>
+    </div>
     </footer>
 
 </body>
