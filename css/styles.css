@@ -389,6 +389,7 @@ justify-content: space-between;
 .portfolio .item {
   width: 370px;
   margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio .item:nth-last-child(-n+3){
@@ -415,4 +416,7 @@ justify-content: space-between;
     margin-top: 4px;
     margin-bottom: 0;
   }
-
+.portfolio .text {
+  padding-left: 24px;
+  padding-right: 24px;
+}
